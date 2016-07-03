@@ -11,6 +11,7 @@ public class FirstClass {
 		// TODO Auto-generated method stub
 		
 		
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
 		int integer = input.nextInt();

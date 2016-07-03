@@ -2,17 +2,19 @@ package DreamExample;
 
 public class Dream {
 
-	Dream dreamObject;
-	private static final int dreamLimit = 10;
+	public Dream dreamObject;
+	
+	public static final int dreamLimit = 10;
+	
 	private int dreamCount;
 	
 	public Dream(){
-
+		
 		if (this.dreamCount<dreamLimit){
 			
 			if(Math.random()<0.50){
 				
-				dreamObject= new Dream(this.dreamCount);
+				this.dreamObject= new Dream(this.dreamCount);
 			}
 		}
 	}
@@ -58,6 +60,10 @@ public class Dream {
 		if(dream.dreamObject != null){
 			
 			noDreams = findDreamWithoutDreams(dream.dreamObject);
+		}
+				
+		else{
+			noDreams = dream;
 		}
 		
 		return noDreams;

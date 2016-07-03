@@ -1,9 +1,6 @@
 package FirstPackage;
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 
 public class Solution {
@@ -14,7 +11,8 @@ public class Solution {
 	        
 	        long N = Long.parseLong(in.readLine());
 	        int n= (int)N;
-	        long [] arr= new long [n];
+	        @SuppressWarnings("unused")
+			long [] arr= new long [n];
 	        TreeMap <Long, Long> array = new TreeMap<Long, Long>();
 	       
 	        String line= in.readLine();
@@ -31,7 +29,8 @@ public class Solution {
 	        
 	        int Q= Integer.parseInt(in.readLine());
 	        line = in.readLine();
-	        StringBuilder answer = new StringBuilder("");
+	        @SuppressWarnings("unused")
+			StringBuilder answer = new StringBuilder("");
 	        int a = 0;
 	        long st = System.currentTimeMillis();
 

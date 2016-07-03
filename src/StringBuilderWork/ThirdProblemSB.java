@@ -8,7 +8,7 @@ public class ThirdProblemSB {
 
 		String str = "foo";
 		
-		StringBuilder strB;
+//		StringBuilder strB;
 		
 		str = str.concat("goo");
 		
@@ -18,7 +18,7 @@ public class ThirdProblemSB {
 		
 //		add code to assign strB the value of "gofoo"
 		
-		System.out.println(strB);
+//		System.out.println(strB);
 		
 	}
 
