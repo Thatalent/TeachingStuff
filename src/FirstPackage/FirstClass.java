@@ -1,7 +1,5 @@
 package FirstPackage;
 
-import java.util.Scanner;
-
 
 public class FirstClass {
 
@@ -10,26 +8,18 @@ public class FirstClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
-		Scanner input = new Scanner(System.in);
-		
-		int integer = input.nextInt();
-		long longInteger = input.nextLong();
-		short shortInteger = input.nextShort();
-		boolean bool = input.nextBoolean();
-		bool = input.nextBoolean();
-		char character = input.next().charAt(0);
+		int integer = 76*6;
+		long longInteger = Long.MAX_VALUE;
+		short shortInteger = 32+76;
+		boolean bool = true;
+		bool = false;
+		char character = Character.MAX_VALUE;
 		//char characterA = 'Z';
-		float floatNumbers= input.nextFloat();
-		double doubles = input.nextDouble();
-		byte bytes = input.nextByte();
+		float floatNumbers= 3/4;
+		double doubles = 75.9-0.9;
+		byte bytes = Byte.MAX_VALUE;
 		integer = (int)doubles;
-		 
-		int i = 9, fave = 2, life = 42;
 		
-		String variable = "variable";
-		
-		variable = input.nextLine();
 		//int a_Number = characterA;
 		//integer = FirstClass.integer + FirstClass.integer;
 		
@@ -44,7 +34,6 @@ public class FirstClass {
 		System.out.println(bool);
 		System.out.println(bytes);
 		System.out.println(shortInteger);
-		System.out.println(variable);
 
 	}
 
