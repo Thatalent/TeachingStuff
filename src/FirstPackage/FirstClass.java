@@ -14,15 +14,15 @@ public class FirstClass {
 		boolean bool = 
 		bool == false;
 		char character = Character.MAX_VALUE;
-		//char characterA = 'Z';
+		char characterA = 'Z';
 		float floatNumbers= 3/4;
 		double doubles = 75.9-0.9;
 		float example = (float)doubles;
 		byte bytes = Byte.MAX_VALUE;
 		integer = doubles;
 		
-		//int a_Number = characterA;
-		//integer = FirstClass.integer + FirstClass.integer;
+		int a_Number = characterA;
+		integer = FirstClass.integer + FirstClass.integer;
 		
 		
 		System.out.println(characterA);
