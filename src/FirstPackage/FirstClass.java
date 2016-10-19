@@ -11,7 +11,7 @@ public class FirstClass {
 		int integer = 9;
 		long longInteger = Long.MAX_VALUE;
 		short shortInteger = 32+76;
-		boolean bool = true;
+		boolean bool = 
 		bool == false;
 		char character = Character.MAX_VALUE;
 		//char characterA = 'Z';
