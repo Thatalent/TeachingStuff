@@ -14,9 +14,11 @@ public class SecondClass {
 		
 		// print r where r= n+3 and n = 2
 		
-		int n = 2/3;
+		int n = 2;
 		
-		boolean r = n == 3;
+		int r = LikeSecondClass.addThemUp(n, 3);
+		
+		System.out.println(r);
 		
 		//use System.out.println() to print your results
 		
