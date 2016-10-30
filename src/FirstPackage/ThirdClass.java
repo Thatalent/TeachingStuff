@@ -8,7 +8,7 @@ public class ThirdClass {
 
 		Scanner input  = new Scanner(System.in);
 		
-		int intgerInput;
+		//int integerInput;
 		try
 		{
 			takeInInteger();
