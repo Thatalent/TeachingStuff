@@ -31,7 +31,7 @@ public class SecondClass {
 		// print String sn with the value "11"
 		
 		// print n where n = int3/3
-		
+
 		// print the result of n <= int2
 		
 		// print the result of n != 2
