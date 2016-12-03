@@ -39,24 +39,45 @@ public class FifthClass {
 		System.out.println(Arrays.toString(a1));
 		System.out.println("when we don't use Arrays.toString, we get this:\n" + a2);
 		
+		/**prints out memory location of a2 on your system**/
+		
 		
 		// TASK #2: write the code that will write 10 random numbers to a1
 		Random rand = new Random();
 		for(int i = 0; i < a1.length; i++){
 			/*insert your code here*/
+			a1[i] = rand.nextInt(100);
 		}
-		
+		System.out.println(Arrays.toString(a1));
+		/**
+		a[0] = (some random number)
+		a[1] = (some random number)
+		...
+		a[9] = (some random number)**/
 		
 		// TASK #3: write the code that will sort a2 from smallest to largest value
 		// (hint: look at Arrays on the API)
+		Arrays.sort(a2);
+		System.out.println(Arrays.toString(a2));
 		
 		
 		// TASK #4: write the code that will print out every odd NUMBER in a1
 		// (hint: you will need a for loop)
-		
+		for(int i = 0; i < a1.length; i++){
+			//37%10 = 7
+			if( a1[i] % 2 == 1 ){
+				System.out.print(a1[i] + "\t");
+			}
+
+		}
+		System.out.println();
 		
 		// TASK #5: write the code that will print out every odd INDEX in a1
-		
+		for(int i = 1; i < a1.length;){
+			System.out.print(a1[i] + "\t");
+			
+			i = i + 2;
+		}
 		
 		/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~STRINGS AND CHARS~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
 		
@@ -66,6 +87,7 @@ public class FifthClass {
 		 */
 		String s1 = "Hello World!";
 		String s2 = new String("milk, bread, eggs, flour, sugar");
+		//String s3 = 
 		
 		/* chars are just single characters (or symbols). in Java they are indicated by single quotes.
 		 * chars can be converted to single character Strings, 
@@ -82,10 +104,12 @@ public class FifthClass {
 		
 		// TASK #6: find and print out the char found at the 6th index of s1
 		// (hint: look at String's functions on the API)
+		System.out.println();
+		System.out.println(s1.charAt(6));
 		
 		
 		// TASK #7: write the code that will replace "flour" with "butter" in s2
-		System.out.println(/*write code here*/);
+		System.out.println(/*write code here*/ s2.replace("flour", "butter"));
 		
 		
 		
