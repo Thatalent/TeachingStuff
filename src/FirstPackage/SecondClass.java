@@ -28,9 +28,20 @@ public class SecondClass {
 		
 		// print String s with the value "Hello World"
 		
+		String s ="Hello World";
+		
+		System.out.println(s);
+		
 		// print String sn with the value "11"
 		
+		String sn="11";
+				
+				System.out.println(sn);
+		
 		// print n where n = int3/3
+				
+		n=int3/3;
+				System.out.println(n);
 
 		// print the result of n <= int2
 		
