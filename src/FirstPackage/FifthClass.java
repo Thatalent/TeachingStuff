@@ -127,5 +127,14 @@ public class FifthClass {
 		 **/
 
 	}
+	
+	public static boolean isPalindrome(String string){
+		
+		//TODO: Complete this method to determine if the string argument
+		// is a palindrome or not. Remember to return the correct boolean for all possible 
+		// scenarios. 
+		
+		return false;
+	}
 
 }
