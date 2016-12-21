@@ -28,6 +28,7 @@ public class SecondClass {
 		
 		// print String s with the value "Hello World"
 		
+<<<<<<< HEAD
 		String s ="Hello World";
 		
 		System.out.println(s);
@@ -42,6 +43,11 @@ public class SecondClass {
 				
 		n=int3/3;
 				System.out.println(n);
+=======
+		// print String sn with the value "11"
+		
+		// print n where n = int3/3
+>>>>>>> parent of e772fc2... Merge branch 'modernitalia-branch-1' into master
 
 		// print the result of n <= int2
 		
