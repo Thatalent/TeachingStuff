@@ -11,7 +11,7 @@ public class ThirdClass {
 		
 		int numberOfTimesItWillRepeat = OOP.SolidClass.how_Many_Times_Will_It_Repeat(input);
 		
-		for(int i = 0; /*add a condition so that the loop repeats the same number of times as numberOfTImesItWillRepeat.*/; i++){
+		for(int i = 0; i < numberOfTimesItWillRepeat;/*add a condition so that the loop repeats the same number of times as numberOfTImesItWillRepeat.*/ i++){
 		boolean userGaveNumber = true;
 		
 		int integerInput = 0;
@@ -27,14 +27,14 @@ public class ThirdClass {
 				userGaveNumber = false;
 			}
 			
-			//this is a 'catch' block. By placing an exception in the '()' you can read code based on in response to an error instead of letting your code break.
+			//this is a 'catch' block. By placing an exception in the '()' you can run code based on it's response to an error instead of letting your code break.
 			catch(NumberFormatException e)
 			{
 				System.out.println("You did not input a number.");
 			}
-			//catch the two remaining exceptions in from the method takeInInteger(Scanner input, int integerInput)
-			
-			
+//			//catch the two remaining exceptions in from the method takeInInteger(Scanner input, int integerInput)
+//			
+//			
 //			catch(/*place the exception in here*/)
 //			{
 //				System.out.println("You did not input a number.");
@@ -43,8 +43,8 @@ public class ThirdClass {
 //			{
 //				System.out.println("Oh no, something happened!!! :o");
 //			}
-		}
-		
+	}
+//		
 //		if the condition in the '()' is true then the code inside the '{}' will be run.
 		if(integerInput == 0)
 		{
@@ -73,7 +73,7 @@ public class ThirdClass {
 	 * 
 	 * @param input
 	 * @param integerInput
-	 * @return
+	 * @return integerInput
 	 * @throws NumberFormatException
 	 */
 	/*By stating that this method can throw a certain exception you can catch that exception in the a 'catch' block

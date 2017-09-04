@@ -29,4 +29,19 @@ public class SolidClass {
 		System.out.println("An error occurred. Program will not repeat.");
 		return 0;
 	}
+	
+//	public static void main(String[] args) {
+//		
+//		Scanner input  = new Scanner(System.in);
+//		
+//		System.out.println("Input a number:");
+//		
+//		int number_Of_Times_Looped = input.nextInt();
+//		
+//		for( int i = 0; i < number_Of_Times_Looped; i++)
+//		{
+//			System.out.println("This has printed out " + (i+1) + " number of times");
+//		}
+//	}
+
 }

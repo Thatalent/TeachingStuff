@@ -35,9 +35,26 @@ public class SecondClass extends FirstClass {
 		
 		// print String s with the value "Hello World"
 		
+<<<<<<< HEAD
+		String s ="Hello World";
+		
+		System.out.println(s);
+		
+		// print String sn with the value "11"
+		
+		String sn="11";
+				
+				System.out.println(sn);
+		
+		// print n where n = int3/3
+				
+		n=int3/3;
+				System.out.println(n);
+=======
 		// print String sn with the value "11"
 		
 		// print n where n = int3/3
+>>>>>>> parent of e772fc2... Merge branch 'modernitalia-branch-1' into master
 
 		// print the result of n <= int2
 		
