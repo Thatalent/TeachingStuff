@@ -1,4 +1,5 @@
-package FirstPackage;
+
+import FirstPackage.FirstClass.*;
 import FirstPackage.FirstClass;
 
 public class SecondClass extends FirstClass {
@@ -9,11 +10,13 @@ public class SecondClass extends FirstClass {
 		
 		int int2 = --integer;
 		
-		FirstClass first = new FirstClass();
+		SecondClass first = new SecondClass();
 		
-		first.secret = "";
+		secret = "";
 		
-		System.out.println(first.secret);
+		first._secret = "";
+		
+		System.out.println(secret);
 		
 		integer = 12;
 		
