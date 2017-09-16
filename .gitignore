@@ -1,0 +1,8 @@
+.metadata/*
+.metadata
+bin/*
+bin
+.settings/*
+.settings
+RemoteSystemsTempFiles/*
+*.log
