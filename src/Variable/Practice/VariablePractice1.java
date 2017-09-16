@@ -3,18 +3,18 @@ package Variable.Practice;
 public class VariablePractice1 {
 	
 	//For problem 5
-	int changingNumber;
+	static int changingNumber = 26;
 	
 	//1. Create a field variable that is equal to 2,147,483,648
 	// this is an example of a field variable:
-	int fieldVariable = 2147483647;
+	static long fieldVariable = 2147483648l;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//2. identify and resolve the error with this segement of code
+		//2. identify and resolve the error with this segment of code
 		
-		int run;
+		int run = 9;
 		
 		System.out.println(run);
 
@@ -24,19 +24,19 @@ public class VariablePractice1 {
 		
 		//4. assign an appropriate value to each variable
 		
-		char c = ;
+		char a;
 		
-		int i = ;
+		int i = 7;
 		
-		short s = ;
+		short s = 1;
 		
-		long l = ;
+		long l = 12345678l;
 		
-		String string = ;
+		String kidney = "kidney";
 		
-		double d = ;
+		double d = 2.5;
 		
-		float f = ;
+		float f = 10;
 		
 		//5. This is how you create an object:
 		
@@ -47,7 +47,9 @@ public class VariablePractice1 {
 		
 		//6. Print out the sum of changingNumber and fieldVaraible using System.out.println()
 		
+		long sum = fieldVariable + changingNumber;
 		
+		System.out.println(sum);
 	}
 
 }
