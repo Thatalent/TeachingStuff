@@ -5,6 +5,7 @@ public class BattleAction {
 	private String name;
 	private int rawDmg;
 	private String optionText;
+	private float critRate;
 
 	public String getName() {
 		return name;
@@ -29,11 +30,18 @@ public class BattleAction {
 	public void setOptionText(String optionText) {
 		this.optionText = optionText;
 	}
+	public float getCritRate() {
+		return critRate;
+	}
 
+	public void setCritRate(float critRate) {
+		this.critRate = critRate;
+	}
 	public static class Builder {
 		private String name;
 		private int rawDmg;
 		private String optionText;
+		private float critRate;
 
 		public Builder name(String name){
 			this.name = name;
@@ -48,11 +56,17 @@ public class BattleAction {
 			return this;
 		}
 
+		public Builder critRate(float critRate){
+			this.critRate = critRate;
+			return this;
+		}
+
 		public BattleAction build(){
 			BattleAction battleAction = new BattleAction();
 			battleAction.setName(this.name);
 			battleAction.setOptionText(this.optionText);
 			battleAction.setRawDmg(this.rawDmg);
+			battleAction.setCritRate(this.critRate);
 			return battleAction;
 		}
 	}
