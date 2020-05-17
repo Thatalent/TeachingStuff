@@ -16,7 +16,7 @@ public class VariablePractice1 {
 		
 		int run;
 		
-		System.out.println(run);
+//		System.out.println(run);
 
 		//3. Change the variable name into a readable version of the same context
 		
@@ -24,19 +24,19 @@ public class VariablePractice1 {
 		
 		//4. assign an appropriate value to each variable
 		
-		char c = ;
-		
-		int i = ;
-		
-		short s = ;
-		
-		long l = ;
-		
-		String string = ;
-		
-		double d = ;
-		
-		float f = ;
+//		char c = ;
+//
+//		int i = ;
+//
+//		short s = ;
+//
+//		long l = ;
+//
+//		String string = ;
+//
+//		double d = ;
+//
+//		float f = ;
 		
 		//5. This is how you create an object:
 		

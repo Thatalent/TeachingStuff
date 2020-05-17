@@ -7,7 +7,7 @@ public class FirstClass {
 	
 	 static String secret =  "hi";
 	
-	 String _secret= null;
+	 public String _secret= null;
 
 	
 	public static void main(String[] args) {

@@ -1,6 +1,7 @@
 
 import FirstPackage.FirstClass.*;
 import FirstPackage.FirstClass;
+import FirstPackage.LikeSecondClass;
 
 public class SecondClass extends FirstClass {
 
@@ -12,7 +13,7 @@ public class SecondClass extends FirstClass {
 		
 		SecondClass first = new SecondClass();
 		
-		secret = "";
+		String secret = "";
 		
 		first._secret = "";
 		

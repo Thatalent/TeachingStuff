@@ -1,9 +1,9 @@
 package FirstPackageTest;
 
-import static org.junit.Assert.*;
-
-import org.junit.Assert;
-import org.junit.Test;
+//import static org.junit.Assert.*;
+//
+//import org.junit.Assert;
+//import org.junit.Test;
 
 import FirstPackage.FifthClass;
 
@@ -27,59 +27,59 @@ public class FifthClassTest {
 		return result;
 	}
 
-	@Test
-	public void firstPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(firstTry));
-	}
-	
-	@Test
-	public void secondPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(secondTry));
-	}
-	
-	@Test
-	public void thirdPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(thirdTry));
-	}
-	
-	@Test
-	public void fourthPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(fourthTry));
-	}
-	
-	@Test
-	public void fifthPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(fifthTry));
-	}
-	
-	@Test
-	public void sixthPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(sixthTry));
-	}
-	
-	@Test
-	public void seventhPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(seventhTry));
-	}
-	
-	@Test
-	public void eigthPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(eigthTry));
-	}
-	
-	@Test
-	public void ninthPalindromeTest(){
-		
-		Assert.assertTrue(testIsPalindrome(ninthTry));
-	}
-	
+//	@Test
+//	public void firstPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(firstTry));
+//	}
+//
+//	@Test
+//	public void secondPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(secondTry));
+//	}
+//
+//	@Test
+//	public void thirdPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(thirdTry));
+//	}
+//
+//	@Test
+//	public void fourthPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(fourthTry));
+//	}
+//
+//	@Test
+//	public void fifthPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(fifthTry));
+//	}
+//
+//	@Test
+//	public void sixthPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(sixthTry));
+//	}
+//
+//	@Test
+//	public void seventhPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(seventhTry));
+//	}
+//
+//	@Test
+//	public void eigthPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(eigthTry));
+//	}
+//
+//	@Test
+//	public void ninthPalindromeTest(){
+//
+//		Assert.assertTrue(testIsPalindrome(ninthTry));
+//	}
+//
 	
 }

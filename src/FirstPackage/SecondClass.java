@@ -20,41 +20,14 @@ public class SecondClass extends FirstClass {
 		int int3 = integer--;
 		
 		// print r where r= n+3 and n = 2
-		
-		int n = 2;
-		
-		int r = LikeSecondClass.addThemUp(n, 3);
-		
-		System.out.println(r);
-		
+
 		//use System.out.println() to print your results
-		
-		System.out.println(integer);
-		System.out.println(int2);
-		System.out.println(int3);
 		
 		// print String s with the value "Hello World"
 		
-<<<<<<< HEAD
-		String s ="Hello World";
-		
-		System.out.println(s);
-		
 		// print String sn with the value "11"
-		
-		String sn="11";
-				
-				System.out.println(sn);
-		
+
 		// print n where n = int3/3
-				
-		n=int3/3;
-				System.out.println(n);
-=======
-		// print String sn with the value "11"
-		
-		// print n where n = int3/3
->>>>>>> parent of e772fc2... Merge branch 'modernitalia-branch-1' into master
 
 		// print the result of n <= int2
 		

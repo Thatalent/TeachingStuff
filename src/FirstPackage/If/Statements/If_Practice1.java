@@ -13,7 +13,7 @@ public class If_Practice1 {
 
         int a = 0;
 
-        if (){
+        if (true){
             System.out.println();
         }
         else{
@@ -40,9 +40,9 @@ public class If_Practice1 {
 
         //4. What value, when assigned to int start will cause int end to print out as 3?
 
-        int start;
+        int start=-1;
 
-        int end;
+        int end=-1;
 
         if(start++ == 3){
             end = start;
@@ -59,9 +59,9 @@ public class If_Practice1 {
 
         // 5. Assign int input a value that will cause int result to be equal to 5
 
-        int input;
+        int input=-1;
 
-        int result;
+        int result =-1;
 
         if (input++ > 1) {
             if (++input < 2) {
@@ -84,7 +84,7 @@ public class If_Practice1 {
                         else result = ++input + 1;
                     else if(input++ > 3)
                         if(input++ > 4) result = --input;
-                        else if(input-- > 5) results = --input;
+                        else if(input-- > 5) result = --input;
                         else result = 5;
                     else result = ++input;
             }
