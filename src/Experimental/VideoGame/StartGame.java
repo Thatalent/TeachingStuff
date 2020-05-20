@@ -109,6 +109,33 @@ public class StartGame{
 
 		return option;
 	}
+	public String targetSelection(String entity){
+		String[] targets = {"player","slime"};
+		String target = null;
 
+	switch (entity) {
+		case "player":
+			OUTPUT.log(INFO, "Select an enemy number");
+			int i;
+			for (i = 1; i < targets.length; i++) {
+			OUTPUT.log(INFO, "\n\t" + i +": "+ targets[i]);
+	}
+
+			final Scanner INPUT = new Scanner(System.in);
+			int select = INPUT.nextInt();
+			target = targets[select];
+			break;
+
+		default:
+			target = targets[0];
+			break;
+	}
+		if (target.equalsIgnoreCase(entity)) {
+			OUTPUT.info("Why are you hitting yourself?");
+		}
+	return target;
+
+
+	}
 }
 				System.out.println("The slime attacks for 2 DMG");
